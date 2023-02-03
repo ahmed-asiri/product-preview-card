@@ -12,3 +12,14 @@
 .product__img, .product__content {
     width: 50%;
 }
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: absolute;
+    bottom: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
