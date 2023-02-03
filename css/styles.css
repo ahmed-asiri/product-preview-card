@@ -9,13 +9,28 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
 .product {
     display: flex;
-    
+    width: 450px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .product__img, .product__content {
     width: 50%;
+}
+
+.product__img {
+    background-image: url("../images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .product__title, .product__btn--new {
