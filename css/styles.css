@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .product {
     display: flex;
     
@@ -13,6 +17,9 @@
     width: 50%;
 }
 
+.product__title, .product__btn--new {
+    font-family: 'Fraunces', serif;;
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 
