@@ -26,8 +26,7 @@
     }
 
     .product__img {
-        height: 30rem;
-        background-image: url("../images/image-product-mobile.jpg");
+        width: 100%;
     }
 
     .product__content {

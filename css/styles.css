@@ -30,11 +30,10 @@ body {
     width: 50%;
 }
 
-.product__img {
-    background-image: url("../images/image-product-desktop.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.product__img picture img{
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .product__content {
