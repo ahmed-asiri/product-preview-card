@@ -89,9 +89,10 @@ body {
     border: none;
     background-color: hsl(158, 36%, 37%);
     cursor: pointer;
+    transition: background-color .2s;
 }
 
-.btn:focus {
+.btn:active {
     background-color: hsl(158, 36%, 28%);
 }
 
