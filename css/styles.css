@@ -37,10 +37,10 @@ body {
 }
 
 .product__content {
-    padding: 2.5rem;
+    padding: 3.5rem;
     display: flex;
     flex-direction: column;
-    row-gap: 2.5rem;
+    row-gap: 2.8rem;
 }
 
 .product__title, .product__btn--new {
@@ -82,7 +82,7 @@ body {
     color: white;
     border-radius: .5rem;
     width: 100%;
-    padding: 1rem 0;
+    padding: 1.3rem 0;
     border: none;
     background-color: hsl(158, 36%, 37%);
     cursor: pointer;
