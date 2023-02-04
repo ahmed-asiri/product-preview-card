@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+
+    body {
+        padding: 0 3rem;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .product__img, .product__content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .product {
+        flex-direction: column;
+    }
+
+    .product__img, .product__content {
+        width: 100%;
+    }
+
+    .product__img {
+        height: 30rem;
+        background-image: url("../images/image-product-mobile.jpg");
+    }
+
+    .product__content {
+        row-gap: 2rem;
+    }
+}
