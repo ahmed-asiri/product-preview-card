@@ -55,11 +55,13 @@ body {
 }
 
 .product__title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    line-height: 1;
 }
 
 .product__description {
     color: hsl(228, 12%, 48%);
+    line-height: 1.7;
 }
 
 .product__price {
@@ -70,7 +72,7 @@ body {
 
 .product__price--new {
     font-family: 'Fraunces', serif;
-    font-size: 3rem;
+    font-size: 3.3rem;
     color: hsl(158, 36%, 37%);
 }
 
